@@ -6,7 +6,8 @@ if (url.substring(0,4) !== ("http")){
 }
 
 var spanNode = document.getElementById('link');
-spanNode.innerHTML = "<a href='"+ url +"'>" +  url + "</a>";
+var html =  "<a href='"+ url +"'>" +  url + "</a>";
+spanNode.innerHTML = html;
 
 
 
